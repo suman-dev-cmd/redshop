@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.headerRoot{
+  background-image: linear-gradient(to right bottom, #e12d2d, #e96500, #e39500, #cec100, #a8eb12);
+}
+.caro{
+  padding-left: 5px !important; 
+  padding-right: 5px !important;
+  background-color: #f1f3f6;
+}
+@media (min-width: 600px){
+  .caro{
+    padding-left: 10px !important; 
+    padding-right: 10px !important;
+  }
+}
+@media (min-width: 1280px){
+  .caro{
+    max-width: 100% !important;
+  }
+}
+.image{
+  height: 20%;
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 14px;
+}
+.diva{
+  height: 30% !important;
+}
+
+.container{
+  background-color: #f1f3f6;
+}
+.buttonClass{
+  background-image: linear-gradient(to right bottom, #e12d2d, #e96500, #e39500, #cec100, #a8eb12);
+
+}
+.plus{
+  width: 28px !important;
+  height: 28px !important;
+  background-image: linear-gradient(to right bottom, #e12d2d, #e96500, #e39500, #cec100, #a8eb12) !important;
+  display: inline-block !important;
+  border: 1px solid #c2c2c2 !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  border-radius: 50% !important;
+  padding-top: 1px !important;
+  line-height: 1 !important;
+  margin-left: 19px !important;
+}
+
+.removeButton{
+  background-image: linear-gradient(to right bottom, #e12d2d, #e96500, #e39500, #cec100, #a8eb12);
+  margin-left: 30px !important;
+  height: 28px !important;
+
+}
+
+
